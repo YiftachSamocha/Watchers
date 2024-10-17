@@ -1,0 +1,21 @@
+.watcher-index{
+    background-color: #E6BFAD;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    h1{
+        font-size: 2.8em;
+        margin-top: 0.2em;
+    }
+    .add-btn{
+        width: 8em;
+        height: 2.5em;
+        margin-block: 1em;
+        font-size: 1.5em;
+        background-color: #e6916a;
+        border: 0;
+        border-radius: 15px;
+    }
+}

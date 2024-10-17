@@ -1,0 +1,45 @@
+.watcher-details {
+    padding: 2em;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 3em auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.watcher-details h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.watcher-details div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 1.5em;
+}
+
+.watcher-details div > div {
+    padding: 0.5em 1em;
+    background-color: #E6BFAD;
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.watcher-details a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #E6BFAD;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.watcher-details a:hover {
+    background-color: #bd9e90;
+}

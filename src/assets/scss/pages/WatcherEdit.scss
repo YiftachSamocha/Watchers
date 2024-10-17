@@ -1,0 +1,72 @@
+.watcher-edit {
+    padding: 2em;
+    background-color: #f4f4f4;
+    border-radius: 12px;
+
+    margin: 0 auto;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.watcher-edit header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.watcher-edit h1 {
+    font-size: 1.8em;
+    color: #444;
+    margin-bottom: 1.5em;
+}
+
+.watcher-edit input[type="text"] {
+    width: 100%;
+    padding: 0.8em;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 1.5em;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.watcher-edit input[type="text"]:focus {
+ 
+    outline: none;
+}
+
+.watcher-edit div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 1.5em;
+}
+
+.watcher-edit>div {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.movie {
+    padding: 0.8em;
+    background-color: #E6BFAD;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie.watch {
+    background-color: #51b8ac;
+}
+
+.movie:hover {
+    background-color: #e2b5a1;
+}
+
+.movie.watch:hover {
+    background-color: #51b8ac;
+}

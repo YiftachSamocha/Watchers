@@ -1,0 +1,82 @@
+// Externals
+
+// Setup
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/mixins";
+
+// Basics
+@import "basics/typography";
+@import "basics/base";
+@import "basics/helpers";
+@import "basics/modals";
+@import "basics/animations";
+
+//Pages
+@import "pages/WatcherDetails.scss";
+@import "pages/WatcherEdit.scss";
+@import "pages/WatcherIndex.scss";
+
+//Cmps
+@import "cmps/WatcherList.scss";
+@import "cmps/WatcherPreview.scss";
+
+.main-app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    main {
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    > footer {
+        background-color: #111;
+        color: white;
+    }
+}
+
+
+a.active {
+    color: rgb(84, 17, 147);
+    font-weight: 600;
+}
+
+
+.clock {
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid black;
+
+    h1 {
+        font-weight: 700;
+        font-size: 1.5em;
+    }
+}
+
+.counter,
+.clock {
+    margin-block: 20px;
+    padding: 10px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    h2 {
+        cursor: pointer;
+        width: fit-content;
+        user-select: none;
+        text-decoration: underline;
+    }
+
+    button {
+        background-color: transparent;
+        border: none;
+        font-size: 1.5em;
+    }
+
+    &.dark {
+        background-color: #101010;
+        color: white;
+    }
+}
